@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: #efefef
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+        
+}
+.container{
+    width: 500px;
+    margin-top: 50px;
+}
+.head{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    width: 470px;
+    background-color: white;
+    /* text-align: center; */
+    padding: .1rem;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.inputs input{
+width: 384px;
+margin: 0;
+padding: 5px 2px 5px 5px;
+border: none;
+outline: none;
+background-color: white;
+ font-size: 15px;
+}
+
+.inputs button{
+    padding: 8px 27px;
+    margin-left: 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #02afaf;
+   
+    /* transition: ease-in-out .2s; */
+    
+}
+.inputs button:hover{
+    background-color: teal;
+    color: white;
+    transition: ease-in-out .2s;
+}
+
+#todo{
+    margin-top: 10px;
+    background-color: gray;
+    /* transition: ease-in-out .5s; */
+}
+#output-el{
+    margin-top: 30px;
+}
+#todo p{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px #c3c3c3;
+    color: teal;
+    
+    
+}
+
+#removeEl{
+    cursor: pointer;
+    user-select: none;
+    font-size: 20px;
+    color: rgb(5, 5, 249);
+    transition: ease-in .2s;
+}
+
+#removeEl:hover{
+    color: red;
+    font-size: 30px;
+    transition: ease-out .2s;
+}
