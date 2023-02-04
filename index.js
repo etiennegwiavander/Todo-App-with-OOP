@@ -21,7 +21,7 @@ class LocalStorage {
 
 let todoArr = LocalStorage.getLocalStorage()
 inputBtn.addEventListener("click", ()=>{
-        e.preventDefault()
+        //e.preventDefault()
     if (inputEl.value !== '' && !todoArr.includes(inputEl.value)) {
         
             let id = Math.random() * 1000000
